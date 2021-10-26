@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Pagination.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h1>USER INFORMATIONS</h1>
+      
+      <br>
+      <div class="btn-group">
+        
+        <input type="button" class="btn btn-success"id="previous" onclick="previousPage()" value="Previous"/>
+        <input type="button" class="btn btn-success"id="first" onclick="Page(1)" value="First" />
+        <input type="button" class="btn btn-success"id="2" onclick="Page(2)" value="2" />
+        <input type="button" class="btn btn-success"id="3" onclick="Page(3)" value="3" />
+        <input type="button" class="btn btn-success"id="4" onclick="Page(4)" value="4" />
+        <input type="button" class="btn btn-success"id="5" onclick="Page(5)" value="5" />
+        <input type="button" class="btn btn-success"id="6" onclick="Page(6)" value="6" />
+        <input type="button" class="btn btn-success"id="7" onclick="Page(7)" value="7" />
+        <input type="button" class="btn btn-success"id="8" onclick="Page(8)" value="8" />
+        <input type="button" class="btn btn-success"id="9" onclick="Page(9)" value="9" />
+        <input type="button" class="btn btn-success"id="last" onclick="lastPage()" value="Last" />
+        <input type="button" class="btn btn-success"id="next" onclick="nextPage()" value="Next" />
+        
+      </div>
+      <br>
+      <br>
+      <div id="list"></div>
+    </div>
+  </body>
+  <script src="Pagination.js"></script>
+</html>

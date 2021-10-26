@@ -1,0 +1,56 @@
+div{
+    margin:5px;
+    padding: 5px;
+    background: radial-gradient(circle, rgb(82, 211, 70) 0%, rgb(148, 233, 200) 100%);
+    
+}
+ul{
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+}
+ul:hover{
+    padding: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    color:red;
+    background-color: white;
+}
+ul li{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+h1{
+    color: rgb(194, 37, 37);
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+input[type=button]{
+    font-size:small;
+    padding: 2px;
+    color:white;
+    
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-radius: 5px;
+}
+input[type=button]:hover{
+    
+    background: radial-gradient(circle, rgba(217, 230, 41, 0.781) 0%, rgba(184, 175, 53, 0.671) 100%);
+    cursor: pointer;
+}
+@media screen and (min-width:1020px) {
+ul{
+    width:75%;
+}
+input[type=button]{
+    font-size:large;
+    padding: 10px;
+}
+}
